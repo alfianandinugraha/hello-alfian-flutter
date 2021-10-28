@@ -44,7 +44,24 @@ class Home extends StatelessWidget {
                 )
               ),
             ),
-            const NormalText("Hello world !"),
+            Text(
+              "Hi !",
+              style: TextStyle(
+                fontFamily: 'ZenKakuGothicAntique',
+                fontSize: 30,
+                fontWeight: FontWeight.w700,
+                color: Colors.blue[500]
+              ),
+            ),
+            const Text(
+              "Alfian Andi Nugraha",
+              style: TextStyle(
+                fontFamily: 'ZenKakuGothicAntique',
+                fontSize: 16,
+                fontWeight: FontWeight.w700
+              ),
+            ),
+            const NormalText("Front-end Web Developer"),
           ]
         )
       )
