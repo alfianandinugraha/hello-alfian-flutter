@@ -27,9 +27,26 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
-        child: NormalText("Hello world !")
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+              width: 120,
+              height: 120,
+              margin: const EdgeInsets.fromLTRB(0, 0, 0, 10),
+              decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                image: DecorationImage(
+                  fit: BoxFit.fill,
+                  image: AssetImage("alfianandi.jpg")
+                )
+              ),
+            ),
+            const NormalText("Hello world !"),
+          ]
+        )
       )
     );
   }
