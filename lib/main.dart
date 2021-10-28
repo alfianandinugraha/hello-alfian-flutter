@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
               ),
             ),
             Text(
-              "Hi !",
+              "Hello world !",
               style: TextStyle(
                 fontFamily: 'ZenKakuGothicAntique',
                 fontSize: 30,
